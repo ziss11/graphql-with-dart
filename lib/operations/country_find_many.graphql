@@ -1,0 +1,8 @@
+query CountryFindMany {
+    countries() {
+        code
+        name
+        capital
+        currency
+    }
+}
